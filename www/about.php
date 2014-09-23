@@ -15,16 +15,18 @@
     <section class="container">
         <div class="content row">
             <section class="main col col-lg-8">
-                
+               <?php include "php/header.php"; ?> 
             </section> <!-- main -->
             <section class="sidebar col col-lg-4">
 
             </section> <!-- sidebar -->
+                <?php include "php/footer.php"; ?>
         </div> <!-- content -->
     </section> <!--container-->
     
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
