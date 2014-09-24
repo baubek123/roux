@@ -14,8 +14,12 @@
 <body id="home">
     <section class="container">
         <div class="content row">
+            <?php include "php/header.php"; ?>
+            <?php include "php/snippet-carousel.php"; ?>
             <section class="main col col-lg-8">
-                <?php include "php/header.php"; ?>
+            <?php include "php/article-intro.php"; ?>
+            <?php include "php/article-abouttheartists.php"; ?>
+            <?php include "php/article-aboutthevenue.php"; ?>
             </section> <!-- main -->
             <section class="sidebar col col-lg-4">
 

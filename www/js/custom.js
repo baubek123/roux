@@ -1,5 +1,5 @@
 $(function() {
-	
+
 	//highlight the current nav
 	$("#home a:contains('Home')").parent().addClass("active");
     $("#schedule a:contains('Schedule')").parent().addClass("active");
@@ -13,5 +13,8 @@ $(function() {
 	}, function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});
+
+	//show the tooltips
+	$("[data-toggle='tooltip']").tooltip({ animation: true });
 
 }); //jQuery is loaded
