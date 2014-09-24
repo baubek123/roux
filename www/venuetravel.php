@@ -16,12 +16,15 @@
         <div class="content row">
             <?php include "php/header.php"; ?>
             <section class="main col col-lg-8">
-                
+            <?php include "php/article-venues.php"; ?>
             </section> <!-- main -->
             <section class="sidebar col col-lg-4">
-
+            <?php include "php/aside-register.php"; ?>
+            <?php include "php/aside-lastyear.php"; ?>
+            <?php include "php/aside-abouttheartists.php"; ?>
+            <?php include "php/aside-accordion.php"; ?>
             </section> <!-- sidebar -->
-                <?php include "php/footer.php"; ?>
+            <?php include "php/footer.php"; ?>
         </div> <!-- content -->
     </section> <!--container-->
     

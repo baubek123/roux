@@ -22,9 +22,11 @@
             <?php include "php/article-aboutthevenue.php"; ?>
             </section> <!-- main -->
             <section class="sidebar col col-lg-4">
-
+            <?php include "php/aside-register.php"; ?>
+            <?php include "php/aside-lastyear.php"; ?>
+            <?php include "php/aside-accordion.php"; ?>
             </section> <!-- sidebar -->
-                <?php include "php/footer.php"; ?>
+            <?php include "php/footer.php"; ?>
         </div> <!-- content -->
     </section> <!--container-->
     
