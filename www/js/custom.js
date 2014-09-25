@@ -1,5 +1,9 @@
 $(function() {
 
+	//activating schedule tabs
+	var hash = window.location.hash;
+	hash && $("ul.nav a[href=' + hash + '").tab('show');
+
 	//highlight the current nav
 	$("#home a:contains('Home')").parent().addClass("active");
     $("#schedule a:contains('Schedule')").parent().addClass("active");
