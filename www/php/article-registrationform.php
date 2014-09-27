@@ -59,7 +59,7 @@
 		<section class="row">
 	  		<label class="col col-lg-4 control-label" for="reference">How did you hear about the Roux Academy Conference?</label>
 			<div class="controls col col-lg-8">
-				<select   name="reference" id="reference">
+				<select name="reference" id="reference">
 					<option>Choose...</option>
 					<option value="friend">A friend</option>
 					<option value="facebook">Facebook</option>

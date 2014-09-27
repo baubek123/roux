@@ -1,6 +1,6 @@
-<section class="artistlist">
+<article class="artistlist">
 	<div id="artistindex" class="row">
-		<section class="scrollspy clearfix col col-lg-3 hidden-xs">
+		<section class="scrollspy clearfix col col-sm-3 hidden-xs">
 			<ul class="nav nav-list affix">
 				<li><a href="#Barot_Bellingham"><span class="glyphicon glyphicon-user"></span> Barot Bellingham</a></li>
 				<li><a href="#Gerard_Donahue"><span class="glyphicon glyphicon-user"></span> Gerard Donahue</a></li>
@@ -16,7 +16,7 @@
 				<li><a href="#Richard_Tweed"><span class="glyphicon glyphicon-user"></span> Richard Tweed</a></li>			</ul> <!-- nav-list -->
 		</section> <!-- scrollspy -->
 
-		<section class="artistinfo col col-lg-9">
+		<section class="artistinfo col col-sm-9">
 			<?php include 'php/snippet_artist_Barot_Bellingham.php'; ?>
 			<?php include 'php/snippet_artist_Gerard_Donahue.php'; ?>
 			<?php include 'php/snippet_artist_Jonathan_Ferrar.php'; ?>
@@ -30,5 +30,6 @@
 			<?php include 'php/snippet_artist_Xhou_Ta.php'; ?>
 			<?php include 'php/snippet_artist_Richard_Tweed.php'; ?>
 		</section> <!-- artistinfo -->
+
 	</div> <!-- artistindex -->
-</section> <!-- artistlist -->
+</article> <!-- artistlist -->

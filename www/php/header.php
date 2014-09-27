@@ -5,7 +5,7 @@
 				<a href="index.php"><img src="images/misc/ralogo_monogram.png" alt="Logo for roux Conference"></a>
 			</section> <!-- branding -->
 
-			<section class="navbar">
+			<section class="navbar navbar-default">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="venuetravel.php">Venue/Travel</a></li>

@@ -1,8 +1,21 @@
 $(function() {
 
+	//controlling opening of accordions
+	$('#monday.panel-body').addClass('in');
+	
+	$('#artists #tuesday.panel-body').addClass('in');
+	$('#artists #wednesday.panel-body').addClass('in');
+	$('#artists #thursday.panel-body').addClass('in');
+	$('#artists #friday.panel-body').addClass('in');
+
+	//addbootstrap classes to images
+	$('.abouttheartists img').addClass('img-circle');
+	$('aside.photosfromlastyear img').addClass('img-thumbnail');
+	$('.artistinfo img').addClass('img-circle');
+
 	//activating schedule tabs
 	var hash = window.location.hash;
-	hash && $("ul.nav a[href=' + hash + '").tab('show');
+	hash && $("ul.nav a[href=' + hash + ']").tab('show');
 
 	//highlight the current nav
 	$("#home a:contains('Home')").parent().addClass("active");

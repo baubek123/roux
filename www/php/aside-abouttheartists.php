@@ -4,5 +4,5 @@
  	
  	<?php include "snippet-artistphotogrid.php"; ?>	
 	
-	<a href="artists.php" class="btn btn-warning">about the artists</a>
+	<a href="artists.php" class="btn btn-danger">about the artists</a>
 </aside>
