@@ -6,4 +6,3 @@
     <?php include "snippet-artistphotogrid.php"; ?>	
 	
 	<a href="artists.php" class="btn btn-primary">about the artists</a>
-</article><!-- abouttheartists -->

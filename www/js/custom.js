@@ -1,4 +1,18 @@
 $(function() {
+	//Making slideshow for last year photos
+    $('.slideShow').each(function(i){
+	  	var groupName = 'group'+i;
+	  	$('.photogrid a', this).colorbox({
+		  	rel:groupName,
+		  	'maxWidth' : '50%',
+			'scalephotos' : true,
+			'transition' : 'fade',
+			'opacity' : 0.5,
+			'slideshow' : true,
+			'slideshowSpeed' : 4000,
+		});
+	});
+
 
 	//controlling opening of accordions
 	$('#monday.panel-body').addClass('in');
@@ -34,20 +48,6 @@ $(function() {
 	//show tooltips
 	$("[data-toggle='tooltip']").tooltip({ animation: true });
 
-	//show modals
-	$('.modalphotos img').on('click', function() {
-		$('#modal').modal( {
-			show: true
-		})
-
-		var mysrc = this.src.substr(0, this.src.length - 7) + '.jpg';
-		$('#modalimage').attr('src', mysrc);
-
-		$('#modalimage').on('click', function() {
-			$('#modal').modal('hide');
-		});
-	});
-
 	//Placing google maps
 	'use strict';
 
@@ -80,4 +80,5 @@ $(function() {
     }
     google.maps.event.addDomListener(window, 'load', drawMap);
 
+    
 }); //jQuery is loaded

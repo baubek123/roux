@@ -33,12 +33,6 @@
 				</ul> <!-- nav -->
 			</section> <!-- navbar -->
 			
-			<!-- Modal -->
-			<section id="modal" class="modal fade">
-				<div class="modal-body">
-					<img src="" alt="Modal Photo" id="modalimage">
-				</div> <!-- modal-body -->
-			</section> <!-- modal -->
 		</header> <!-- header -->
 	</div> <!-- column -->
 </div> <!-- content -->
