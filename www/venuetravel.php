@@ -28,6 +28,7 @@
         </div> <!-- content -->
     </section> <!--container-->
 
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAWf34xT2QUCAVoccETiy7fEtSpd7uH2X8&sensor=false"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>

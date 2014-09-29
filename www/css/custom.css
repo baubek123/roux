@@ -190,3 +190,14 @@ footer .breadcrumb li a {
 .img-thumbnail:hover {
   background-color: #dc609c;
 }
+#googleMaps {
+  width: 400px;
+  height: 300px;
+  margin: 10px 0 0 0;
+}
+@media (max-width: 767px) {
+  #googleMaps {
+    width: 300px;
+    height: 225px;
+  }
+}
