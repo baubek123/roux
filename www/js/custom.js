@@ -48,37 +48,5 @@ $(function() {
 	//show tooltips
 	$("[data-toggle='tooltip']").tooltip({ animation: true });
 
-	//Placing google maps
-	'use strict';
-
-	function drawMap() {
-		var storeLocation = new google.maps.LatLng(47.6078925, -122.3337335);
-        var mapOptions = {
-          center: storeLocation,
-          zoom: 17,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        
-        var map = new google.maps.Map(document.getElementById("googleMaps"), mapOptions);
-
-        var popup = 'Vist us at Hotel Contempo<br/>'
-        + '411 University Street, Seattle WA';
-
-        var infowindow = new google.maps.InfoWindow({
-		    content: popup,
-		    maxWidth: 200
-		});
-
-        var marker = new google.maps.Marker({
-		    position: storeLocation,
-		    map: map,
-  		});
-
-        google.maps.event.addListener(marker, 'click', function() {
-	    	infowindow.open(map,marker);
-	    });
-    }
-    google.maps.event.addDomListener(window, 'load', drawMap);
-
-    
+	
 }); //jQuery is loaded
